@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0;}
+
+:root {
+    --text : 100 0.93rem/100% ;
+    --text-md : 300 1.12rem/100% ;
+
+    --color : white ;
+    --bg-primary : black ;
+    --bg-secundary : rgb(58, 58, 58) ;
+
+    
+    }
