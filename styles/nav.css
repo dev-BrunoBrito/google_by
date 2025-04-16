@@ -23,3 +23,7 @@ nav {
         height: 2.25rem;
     }
 }
+
+a:hover{
+    text-decoration: underline;
+}
