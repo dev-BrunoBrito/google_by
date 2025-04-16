@@ -1,0 +1,25 @@
+nav {
+    display: flex ;
+    gap: 24px ;
+    justify-content: right ;
+    padding: 1rem 1.4rem ;
+    align-items: center;
+
+    & a {
+       color : var(--text-color) ;
+       text-decoration: none ;
+       font : var(--text) ;
+    }
+
+    & #profile {
+        width: 2.87rem;
+        height: 2.87rem;
+        border-radius: 50%;
+        object-fit: fill;
+    }
+
+    & #menu { 
+        width:  2.25rem;
+        height: 2.25rem;
+    }
+}

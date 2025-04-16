@@ -1,12 +1,19 @@
 *{margin: 0; padding: 0;}
 
 :root {
-    --text : 100 0.93rem/100% ;
-    --text-md : 300 1.12rem/100% ;
+    --font-family :  "Noto Sans", sans-serif ; 
+    --text : 400 0.93rem/100%  var(--font-family);
+    --text-md : 300 1.12rem/100% var(--font-family);
 
-    --color : white ;
+    --text-color : white ;
     --bg-primary : black ;
     --bg-secundary : rgb(58, 58, 58) ;
 
-    
+
+    }
+
+    body {
+        background-color: var(--bg-primary);
+        color: var(--text-color);
+
     }
