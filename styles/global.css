@@ -8,12 +8,14 @@
     --text-color : white ;
     --bg-primary : black ;
     --bg-secundary : rgb(58, 58, 58) ;
-
+    --bg-btn: #3f4454;
 
     }
 
-    body {
+body {
         background-color: var(--bg-primary);
         color: var(--text-color);
+}
 
-    }
+
+
