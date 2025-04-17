@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1rem;
+
+    & .logo{
+        margin-top: 15rem;
+        width: 20rem;
+    }
+
+    & input{
+        margin-block: 3rem 1.5rem;
+    }
+    
+    & .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 1rem;
+        align-items: flex-start;
+        background-color: white;
+        gap: .4rem;
+    }
+
+    & button{
+        margin-left: 1rem;
+    }
+}
+
+.input-wrapper{
+    background-color: red;    
+    border-radius: 2.5rem;
+}
+
+input{
+    padding: 1rem 13rem;
+    border-radius: 2.5rem;
+    border: none;
+    outline: none;
+    background-image: url(/assets/icons/search.svg) ;
+    background-repeat: no-repeat ;
+    background-position: center left 20px ;
+}
+
+image{
+    width: 20rem;
+}
