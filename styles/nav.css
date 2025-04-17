@@ -5,6 +5,13 @@ nav {
     padding: 1rem 1.4rem ;
     align-items: center;
 
+    div{
+        display: flex ;
+        gap: 24px ;
+        justify-content: right ;
+        align-items: center;
+    }
+
     & a {
        color : var(--text-color) ;
        text-decoration: none ;
@@ -21,9 +28,13 @@ nav {
     & #menu { 
         width:  2.25rem;
         height: 2.25rem;
+        
     }
 }
 
 a:hover{
     text-decoration: underline;
 }
+
+
+

@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input{
+        margin-block: 3rem 1.5rem;
+    }
+    
+    .icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        text-align: center;
+    }
+}
+
+.input-wrapper{
+    background-color: red;    
+    border-radius: 2.5rem;
+}
+
+input{
+    padding: 1.5rem 20rem;
+    border-radius: 2.5rem;
+    border: none;
+    outline: none;
+    background-image: url(/assets/icons/search.svg) ;
+    background-repeat: no-repeat ;
+    background-position: center left 20px ;
+}
+
+
