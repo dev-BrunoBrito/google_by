@@ -1,9 +1,9 @@
-*{margin: 0; padding: 0;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
 
 :root {
     --font-family :  "Noto Sans", sans-serif ; 
     --text : 400 0.93rem/100%  var(--font-family);
-    --text-md : 300 1.12rem/100% var(--font-family);
+    --text-md : 500 1.12rem/100% var(--font-family);
 
     --text-color : white ;
     --bg-primary : black ;
@@ -17,5 +17,16 @@ body {
         color: var(--text-color);
 }
 
+.btn{
+    background-color: var(--bg-btn);
+    border: none;
+    padding: 1rem .5rem;
+    font: var(--text);
+    color: var(--text-color);
+    border-radius: .2rem;
 
+    &:hover{
+        border: lightgrey solid 1px;
+    }
+}
 
